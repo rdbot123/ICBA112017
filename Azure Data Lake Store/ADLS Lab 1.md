@@ -55,5 +55,6 @@ Also, you can use the AdlCopy tool in two different modes:
 18. See if the container has any data. If not, upload the Flights data to it using any of the methods discussed earlier.
 19. Download and install ![AdlCopy](http://aka.ms/downloadadlcopy).
 20. Navigate to the location where it was installed. (Try C:\Users\username\Documents\AdlCopy)
+21. Type the following and hit Enter.
 
 AdlCopy /Source BlobURL /dest ADLURL /sourcekey BlobKey /Account ADLAaccount /Units 10 /Pattern *.csv
