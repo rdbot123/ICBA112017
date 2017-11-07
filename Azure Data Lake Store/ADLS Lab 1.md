@@ -40,7 +40,7 @@ You can upload your data to an Azure Data Lake Store account directly at the roo
 
 ## ADLCopy
 
-Azure Data Lake Store provides a command line tool, ![AdlCopy](http://aka.ms/downloadadlcopy), to copy data from the following sources:
+Azure Data Lake Store provides a command line tool, AdlCopy, to copy data from the following sources:
   + From Azure Storage Blobs into Data Lake Store. You cannot use AdlCopy to copy data from Data Lake Store to Azure Storage blobs.
   + Between two Azure Data Lake Store accounts.
 
@@ -53,7 +53,7 @@ Also, you can use the AdlCopy tool in two different modes:
 16. Click on Blobs -> Container -> Container properties.
 17. Copy the URL.
 18. See if the container has any data. If not, upload the Flights data to it using any of the methods discussed earlier.
-19. Download and install ![AdlCopy](http://aka.ms/downloadadlcopy).
+19. Download and install AdlCopy(http://aka.ms/downloadadlcopy).
 20. Navigate to the location where it was installed. (Try C:\Users\username\Documents\AdlCopy)
 21. Type the following and hit Enter.
 
